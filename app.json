@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "my-notes",
+    "slug": "my-notes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appicon.png",
+    "splash": {
+      "image": "./assets/appicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thefirecracker.notesapp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appicon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.thefirecracker.notesapp",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/appicon.png"
+    }
+  }
+}
